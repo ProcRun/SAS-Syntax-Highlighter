@@ -4,7 +4,7 @@ Plugin Name: SyntaxHighlighter Evolved: SAS Brush
 Description: Adds support for the SAS Language
 Author: ProcRun
 Version: 0.1
-Author URI: http://www.procrun.com
+Author URL: http://www.procrun.com
 */
  
 // SyntaxHighlighter Evolved doesn't do anything until early in the "init" hook, so best to wait until after that
