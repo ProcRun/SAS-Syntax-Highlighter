@@ -1,6 +1,6 @@
 SyntaxHighlighter.brushes.sas = function()
 {
-	var keywords	= 'proc run';
+	var keywords	= 'proc run by data';
 
 };
  
