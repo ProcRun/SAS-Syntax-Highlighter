@@ -15,7 +15,7 @@ add_filter( 'syntaxhighlighter_brushes', 'syntaxhighlighter_sas_addlang' );
  
 // Register the brush file with WordPress
 function syntaxhighlighter_sas_regscript() {
-    wp_register_script( 'syntaxhighlighter-brush-sas', plugins_url( 'shBrushSAS.js', __FILE__ ), array('syntaxhighlighter-core'), '1.2.3' );
+    wp_register_script( 'syntaxhighlighter-brush-sas', plugins_url( 'syntaxhighlighter-sas/shBrushSAS.js'), array('syntaxhighlighter-core'), '1.2.3' );
 }
  
 // Filter SyntaxHighlighter Evolved's language array
