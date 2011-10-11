@@ -1,11 +1,11 @@
-SyntaxHighlighter.brushes.Custom = function()
+SyntaxHighlighter.brushes.SAS = function()
 {
 	var funcs		= 'proc run data sort'
-	var keywords 	= ''
+	var keywords 	= 'proc run sort data by'
 	var operators 	= 'select when and or'
 
 
 };
  
-SyntaxHighlighter.brushes.Custom.prototype = new SyntaxHighlighter.Highlighter();
-SyntaxHighlighter.brushes.Custom.aliases  = ['SAS', '.sas', 'sas'];
+SyntaxHighlighter.brushes.SAS.prototype = new SyntaxHighlighter.Highlighter();
+SyntaxHighlighter.brushes.SAS.aliases  = ['SAS', '.sas', 'sas'];
